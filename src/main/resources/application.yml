@@ -1,0 +1,7 @@
+batch:
+  name: constant_batch
+  version: 1.0.0
+  
+logging:
+  level: INFO
+  file: logs/batch.log
