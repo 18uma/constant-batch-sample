@@ -8,5 +8,9 @@ logs/
 *.iml
 .vscode/
 
+# Eclipse
+.project
+.classpath
+
 # OS
 .DS_Store
