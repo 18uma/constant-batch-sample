@@ -2,6 +2,8 @@
 
 Java + Spring 4.x + Gradle 9を使用した定常バッチのサンプル実装
 
+[![CI](https://github.com/18uma/constant-batch-sample/actions/workflows/ci.yml/badge.svg)](https://github.com/18uma/constant-batch-sample/actions/workflows/ci.yml)
+
 ## 構成
 
 ### Core系（業務ロジック層）
