@@ -5,8 +5,12 @@ plugins {
 
 group = 'com.example'
 version = '1.0.0'
-sourceCompatibility = '25'
-targetCompatibility = '25'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
 
 repositories {
     mavenCentral()
@@ -23,10 +27,6 @@ dependencies {
     
     // YAML
     implementation 'org.yaml:snakeyaml:2.2'
-    
-    // Lombok
-    compileOnly 'org.projectlombok:lombok:1.18.30'
-    annotationProcessor 'org.projectlombok:lombok:1.18.30'
     
     // Test
     testImplementation 'junit:junit:4.13.2'
